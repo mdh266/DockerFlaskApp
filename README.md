@@ -2,7 +2,7 @@
 ------------------------------
 A simple "Hello World!" type <a href="http://flask.pocoo.org/">Flask</a> app that uses <a href="https://getbootstrap.com/">Bootstrap</a>.
 
-To use download <a href="https://www.docker.com/">Docker</a> and then clone this repository from the repository run:
+To use, download <a href="https://www.docker.com/">Docker</a> and then clone this repository. From the repo directory run:
 
 	docker build -t simpleapp .
 
