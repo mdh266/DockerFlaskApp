@@ -25,5 +25,5 @@ dependencies:
   - wheel=0.33.1=py36_0
   - xz=5.2.4=h1de35cc_4
   - zlib=1.2.11=h1de35cc_3
-prefix: /Users/mukeharmon/miniconda/envs/flaskapp
+prefix: /Users/mikeharmon/miniconda/envs/flaskapp
 
