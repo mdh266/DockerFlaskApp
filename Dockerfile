@@ -1,10 +1,7 @@
-FROM continuumio/miniconda3:latest
+FROM continuumio/miniconda3:4.7.10
 
 # set up file system
 RUN mkdir ds
-ENV HOME=/ds
-ENV SHELL=/bin/bash
-VOLUME /ds
 WORKDIR /ds
 
 # copy the files over
