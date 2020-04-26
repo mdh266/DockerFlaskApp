@@ -10,7 +10,7 @@ To run the app run:
 
 	docker run -id -p 8080:8080 simpleapp
 
-Then go to the site http://0.0.0.0:8008 to see the page:
+Then go to the site http://0.0.0.0:8080 to see the page:
 
 
 ![](images/input.png)
