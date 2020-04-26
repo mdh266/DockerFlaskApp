@@ -8,9 +8,9 @@ To use, download <a href="https://www.docker.com/">Docker</a> and then clone thi
 
 To run the app run:
 
-	docker run -id -p 5000:5000 simpleapp
+	docker run -id -p 8080:8080 simpleapp
 
-Then go to the site http://0.0.0.0:5000 to see the page:
+Then go to the site http://0.0.0.0:8008 to see the page:
 
 
 ![](images/input.png)
@@ -18,5 +18,11 @@ Then go to the site http://0.0.0.0:5000 to see the page:
 When you put in a name and hit enter results in:
 
 ![](images/result.png)
+
+Deploying to [Google Cloud App Engine](https://cloud.google.com/appengine) run:
+
+	gcloud app deploy
+
+Then go to the `target url`.
 
 
